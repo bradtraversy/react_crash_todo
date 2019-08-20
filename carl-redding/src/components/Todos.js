@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Todos from './components/Todos';
+// import './App.css';
 
-function Todos() {
-  return (
-    <div className="Todos">
-      <h1>
-        HOLA MI GENTE
-      </h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Work on react side project/Start Lambda Football Cards/Read Eloquent Javascript.</h1>
+      </div>
+    );
+  }
 }
 
-export default Todos;
+export default App;
