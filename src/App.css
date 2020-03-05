@@ -19,14 +19,21 @@ a {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   border: none;
-  background: #555;
-  color: #fff;
   padding: 7px 20px;
+  color: #ffffff;
+}
+
+.btn:disabled {
+  background: #bbbbbb;
+}
+
+.btn:enabled {
+  background: #555555;
   cursor: pointer;
 }
 
-.btn:hover {
-  background: #666;
+.btn:enabled:hover {
+  background: #666666;
 }
